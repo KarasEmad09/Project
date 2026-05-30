@@ -488,7 +488,7 @@ section {
   border-radius: 10px;
 }
 
-/* Central floating emoji visual */
+/* Central floating visual */
 .floating-visual {
   font-size: 5rem;
   display: flex;
@@ -496,6 +496,9 @@ section {
   align-items: center;
   animation: bob 4s ease-in-out infinite;
   z-index: 6;
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
 }
 
 @keyframes bob {
@@ -598,6 +601,8 @@ section {
   }
   .floating-visual {
     font-size: 4rem;
+    width: 100px;
+    height: 100px;
   }
 }
 

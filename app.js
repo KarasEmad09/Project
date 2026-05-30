@@ -80,7 +80,7 @@ function initFormHandler() {
   const successCard = document.getElementById('success-state');
   const formContent = document.getElementById('form-inputs-container');
   const emailInput = document.getElementById('email');
-  const deptInput = document.getElementById('department');
+  const nameInput = document.getElementById('name');
   const successEmailText = document.getElementById('success-email-placeholder');
 
   if (!form || !successCard) return;
@@ -89,14 +89,14 @@ function initFormHandler() {
     e.preventDefault();
 
     const emailValue = emailInput.value.trim();
-    const deptValue = deptInput.value.trim();
+    const nameValue = nameInput.value.trim();
 
     let isValid = true;
 
-    // Validate Department
-    if (!deptValue) {
+    // Validate Name
+    if (!nameValue) {
       isValid = false;
-      highlightError(deptInput);
+      highlightError(nameInput);
     }
 
     // Validate Email
@@ -116,7 +116,8 @@ function initFormHandler() {
 
     // Prepare JSON Payload
     const payload = {
-      department: deptValue,
+      name: nameValue,
+      department: nameValue, // for backward compatibility with schema
       email: emailValue,
       timestamp: new Date().toISOString(),
       source: 'antigravity-landing'

@@ -1,4 +1,4 @@
-# 🚀 Google AntiGravity — Landing Page
+#  Google AntiGravity — Landing Page
 
 > *"The future of movement is weightless."*
 
@@ -6,15 +6,13 @@ A sleek, animated landing page for **Google AntiGravity** — a fictional experi
 
 ---
 
-## 🌐 Repository
+##  Repository
 
-🔗 [github.com/KarasEmad09/Project](https://github.com/KarasEmad09/Project.git)
-
-> 💡 **Want a live demo?** Deploy for free on [GitHub Pages](https://pages.github.com/) — open your repo → Settings → Pages → select `main` branch → Save. Your live URL will be: `https://karasemad09.github.io/Project/antigravity.html`
+Link -> [github.com/KarasEmad09/Project](https://github.com/KarasEmad09/Project.git)
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 **Hero Section**
 ![Hero Section](https://raw.githubusercontent.com/KarasEmad09/Project/f561f15650c6c03cf9a7430e7ef73ea12d982d4f/Screenshot%202026-06-01%20002657.png)
@@ -33,7 +31,7 @@ A sleek, animated landing page for **Google AntiGravity** — a fictional experi
 
 ---
 
-## ✨ Features
+## Features
 
 - **Animated Hero Section** — Full-screen hero with floating background orbs, rising particles, and smooth fade-in animations
 - **Parallax Tilt Effect** — Interactive 3D device mockup that responds to mouse movement
@@ -53,7 +51,7 @@ A sleek, animated landing page for **Google AntiGravity** — a fictional experi
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -66,7 +64,7 @@ A sleek, animated landing page for **Google AntiGravity** — a fictional experi
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Project/
@@ -76,11 +74,11 @@ Project/
 └── logo.png           # Floating logo visual inside the device mockup
 ```
 
-> ⚠️ **Note:** Make sure `logo.png` is present in the root of the repository. Without it, the phone mockup inside the hero section will show a broken image.
+>  **Note:** Make sure `logo.png` is present in the root of the repository. Without it, the phone mockup inside the hero section will show a broken image.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 No build tools or package manager needed. It's plain HTML/CSS/JS.
 
@@ -102,21 +100,9 @@ open antigravity.html
 # Option B — Use VS Code Live Server extension
 # Right-click antigravity.html → "Open with Live Server"
 ```
-
-### 3. Configure the webhook (optional)
-
-To capture form submissions, replace the placeholder URL in `app.js`:
-
-```js
-// app.js — Line ~80
-const WEBHOOK_URL = 'https://your-actual-webhook-endpoint.com';
-```
-
-You can use services like [Webhook.site](https://webhook.site), [Formspree](https://formspree.io), or your own backend.
-
 ---
 
-## 🎨 Customization
+##  Customization
 
 | What to change | Where |
 |---|---|
@@ -129,7 +115,7 @@ You can use services like [Webhook.site](https://webhook.site), [Formspree](http
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! To get started:
 
@@ -141,7 +127,7 @@ Contributions are welcome! To get started:
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the **MIT License**.
 
@@ -152,5 +138,5 @@ MIT License — feel free to use, modify, and distribute.
 ---
 
 <p align="center">
-  &copy; 2026 Google LLC · AntiGravity is an experimental preview concept · Built with ❤️ using Antigravity IDE
+  &copy; 2026 Google LLC · AntiGravity is an experimental preview concept · Built with the using of Antigravity IDE
 </p>

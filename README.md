@@ -10,6 +10,8 @@ A sleek, animated landing page for **Google AntiGravity** — a fictional experi
 
 Link -> [github.com/KarasEmad09/Project](https://github.com/KarasEmad09/Project.git)
 
+Live Link of the project -> [karasemad09.github.io/Project](https://karasemad09.github.io/Project/)
+
 ---
 
 ##  Screenshots
